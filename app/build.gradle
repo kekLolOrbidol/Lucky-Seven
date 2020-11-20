@@ -26,18 +26,18 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        manifestPlaceholders = [
+                onesignal_app_id: '82780c35-0181-4091-ae73-12510021b9e6',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            manifestPlaceholders = [
-                    onesignal_app_id: '82780c35-0181-4091-ae73-12510021b9e6',
-                    // Project number pulled from dashboard, local value is ignored.
-                    onesignal_google_project_number: 'REMOTE'
-            ]
+
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
