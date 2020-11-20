@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         FacebookSdk.sdkInitialize(this)
         sPref = SharPreference(this).apply { getSp("uri") }
         val url = sPref?.getStr("uri")
-        if(url != null)
+        if(url != null && url != "")
             open(url)
         else stylus()
 
