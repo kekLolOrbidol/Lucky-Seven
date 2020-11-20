@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameIdeaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.santtuhyvarinen.gameideagenerator.views.DotDivid
+        android:id="@+id/divider1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_marginTop="@dimen/mainMargin"
+        app:dots="10"
+        app:color="@color/colorText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/gameIdeaText"
+        app:layout_constraintRight_toRightOf="@id/gameIdeaText"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/gameIdeaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/GameIdeaText"
+        android:layout_margin="@dimen/mainMargin"
+
+        app:layout_constraintTop_toBottomOf="@id/divider1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.santtuhyvarinen.gameideagenerator.views.DotDivid
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_marginTop="@dimen/mainMargin"
+        app:dots="10"
+        app:color="@color/colorText"
+        app:layout_constraintTop_toBottomOf="@id/gameIdeaText"
+        app:layout_constraintLeft_toLeftOf="@id/gameIdeaText"
+        app:layout_constraintRight_toRightOf="@id/gameIdeaText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

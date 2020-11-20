@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9c27b0</color>
+    <color name="colorPrimaryDark">#6a0080</color>
+    <color name="colorPrimaryLight">#d05ce3</color>
+    <color name="colorAccent">#f9a825</color>
+    <color name="colorAccentDark">#c17900</color>
+    <color name="colorAccentLight">#ffd95a</color>
+
+    <color name="colorBackground">#ededed</color>
+    <color name="colorText">#000000</color>
+    <color name="colorButtonText">#000000</color>
+
+
+    <color name="colorRemoveButton">#c10000</color>
+
+    <color name="colorFavoriteButtonSelected">#ff8c8c</color>
+    <color name="colorFavoriteButton">#ffffff</color>
+    <color name="colorFavoriteButtonPressed">#dddddd</color>
+</resources>

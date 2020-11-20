@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Genres">
+        <item>Role-playing</item>
+        <item>Action RPG</item>
+        <item>Platformer</item>
+        <item>Collectathon</item>
+        <item>Party</item>
+        <item>FPS</item>
+        <item>Survival</item>
+        <item>Rhythm</item>
+        <item>Sandbox</item>
+        <item>Adventure</item>
+        <item>Survival Horror</item>
+        <item>Dungeon Crawler</item>
+        <item>Stealth</item>
+        <item>Beat \'em up</item>
+        <item>Shoot \'em up</item>
+        <item>Puzzle</item>
+        <item>Hack&amp;Slash</item>
+        <item>Point&amp;Click</item>
+        <item>Text Adventure</item>
+        <item>Strategy</item>
+        <item>Racing</item>
+        <item>Kart Racing</item>
+        <item>Deck Building</item>
+        <item>Base Building</item>
+        <item>Tower Defence</item>
+        <item>Fighting</item>
+        <item>Walking Simulator</item>
+        <item>Detective</item>
+        <item>Sports</item>
+        <item>City Building</item>>
+        <item>Roguelike</item>
+        <item>Roguelite</item>
+        <item>Simulator</item>
+        <item>Immersive Sim</item>
+        <item>Metroidvania</item>
+        <item>Tactics</item>
+        <item>Programming</item>
+        <item>Alternative Reality</item>
+        <item>Battle Royale</item>
+        <item>Bullet Hell</item>
+        <item>Open World</item>
+        <item>Life Sim</item>
+    </string-array>
+
+    <string-array name="Themes">
+        <item>Post-apocalyptic</item>
+        <item>Apocalyptic</item>
+        <item>Horror</item>
+        <item>Science fiction</item>
+        <item>Prehistoric</item>
+        <item>Steampunk</item>
+        <item>Cyberpunk</item>
+        <item>Dieselpunk</item>
+        <item>Gothic</item>
+        <item>Futuristic</item>
+        <item>Western</item>
+        <item>Lovecraftian</item>
+        <item>Fantasy</item>
+        <item>Medieval</item>
+        <item>Modern</item>
+        <item>Film noir</item>
+        <item>Dystopian</item>
+        <item>Religious</item>
+        <item>Thriller</item>
+        <item>Historical</item>
+        <item>Martial Arts</item>
+    </string-array>
+
+    <string-array name="Adjectives">
+        <item>Slow-paced</item>
+        <item>Fast-paced</item>
+        <item>Difficult</item>
+        <item>Casual</item>
+        <item>Hardcore</item>
+        <item>Atmospheric</item>
+        <item>Psychedelic</item>
+        <item>Story-heavy</item>
+        <item>Comedic</item>
+        <item>Linear</item>
+        <item>Experimental</item>
+        <item>Open ended</item>
+        <item>Simple</item>
+        <item>Cinematic</item>
+        <item>Minimalistic</item>
+        <item>Cooperative</item>
+        <item>Competitive</item>
+        <item>Mystical</item>
+        <item>Fun</item>
+        <item>Epic</item>
+        <item>Educational</item>
+        <item>Weird</item>
+        <item>Frustrating</item>
+        <item>Stylistic</item>
+        <item>Asymmetrical</item>
+        <item>Musical</item>
+        <item>Turn-based</item>
+        <item>Tense</item>
+    </string-array>
+</resources>
